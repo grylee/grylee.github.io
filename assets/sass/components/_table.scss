@@ -15,17 +15,17 @@
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
 
-		tbody {
-			tr {
-				border: solid _size(border-width) _palette(border);
-				border-left: 0;
-				border-right: 0;
+		// tbody {
+		// 	tr {
+		// 		border: solid _size(border-width) _palette(border);
+		// 		border-left: 0;
+		// 		border-right: 0;
 
-				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
-				}
-			}
-		}
+		// 		&:nth-child(2n + 1) {
+		// 			background-color: _palette(border-bg);
+		// 		}
+		// 	}
+		// }
 
 		td {
 			padding: 0.75em 0.75em;

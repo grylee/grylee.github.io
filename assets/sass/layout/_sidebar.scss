@@ -92,7 +92,7 @@
 				}
 
 				&:before {
-					background: lighten(_palette(bg), 5);
+					background: _palette(fg-light);
 				}
 
 				&:after {
@@ -102,11 +102,11 @@
 				}
 
 				&:hover {
-					color: _palette(fg);
+					color: _palette(tt);
 				}
 
 				&.active {
-					color: _palette(fg-bold);
+					color: _palette(tt-bold);
 
 					&:after {
 						max-width: 100%;

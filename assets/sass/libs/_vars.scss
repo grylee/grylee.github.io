@@ -35,8 +35,8 @@
 	$palette: (
 		bg:					#5B771D,
 		bg-alt:				darken(#5B771D, 5),
-		bg-footer:			#444444,
-		fg:					rgba(0,0,0,0.45),
+		bg-footer:			rgba(70,70,70,0.95),
+		fg:					rgba(0,0,0,0.65),
 		fg-strong:			#303030,
 		fg-bold:			#303030,
 		fg-light:			rgba(255,255,255,0.35),
@@ -44,10 +44,14 @@
 		fg-footer:			rgba(200, 200, 200, 0.45),
 		border:				rgba(70,70,70,0.20),
 		border-bg:			rgba(70,70,70,0.35),
-		accent1:			#EDF3E2,
-		accent1-alt:		darken(#EDF3E2, 60),
+		accent1:			#f5f4f0,
+		accent1-alt:		darken(#f5f4f0, 60),
 		accent2:			#CDDBCC,
 		accent2-alt:		darken(#CDDBCC, 60),
 		accent3:			#FFFFED,
-		accent3-alt:		darken(#FFFFED, 60)
+		accent3-alt:		darken(#FFFFED, 60),
+        spl-bg:             #FFFFED,
+        tt-bold:            rgba(255,255,255,0.80),
+        tt:                 rgba(255,255,255,0.70),
+        tt-bg:              #2c5b2a
 	);
